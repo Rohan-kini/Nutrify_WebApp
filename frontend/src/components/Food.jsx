@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
 import './food.css';
-const backendUrl = 'https://nutrify-webapp-qlr8.onrender.com';
+const backendUrl = 'https://nutrify-webapp-xzaq.onrender.com';
 
 export default function Food(props) {
     const [eatenQuantity, setEatenQuantity] = useState(100);
